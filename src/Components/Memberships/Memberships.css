@@ -1,0 +1,116 @@
+.memberships {
+    /* background-color: greenyellow; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.membership_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+    width: 35%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.membership_count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding: 8px;
+    background-color: black;
+
+}
+
+.MemberShip-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    height: 95%;
+    /* background-color: red; */
+    width: 100%;
+
+
+}
+
+.membership-image {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.membership_button {
+    /* background: rgba(0, 0, 0, 0.69); */
+    /* background-color: red; */
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4px; */
+
+}
+
+.membership_button button {
+    background: rgba(0, 0, 0, 0.69);
+    color: white;
+    width: 50%;
+    height: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Refresh_icons {
+    transform: rotate(45deg);
+
+}
+
+.Memberships_status {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    height: 100%;
+}
+
+.MemberShip_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10%;
+}
+
+.Membership_color {
+    color: #01DD42;
+}
+
+.users_subscribed {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    align-items: center;
+    width: 615px;
+    height: 100px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    /* background-color: red; */
+}
+
+.UserColor {
+    color: #01DD42;
+}

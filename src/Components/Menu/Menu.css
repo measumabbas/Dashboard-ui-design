@@ -1,0 +1,30 @@
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 65%;
+}
+.Menu-container{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+    width: 90%;
+    /* background-color: aliceblue; */
+    padding-left: 15px;
+    cursor: pointer;
+    
+}
+.Menu-icon{
+    /* background-color: wheat; */
+    color: white;
+    height: 4vh;
+    width: 15%;
+    
+}
+.Menu-title{
+    width: 75%;
+    color: white;
+}

@@ -1,0 +1,31 @@
+.App {
+    height: 100vh;
+    /* overflow: hidden; */
+
+    /* background-color: black; */
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .main-Menu{
+    width: 323px;
+    height: calc(100vh - 50px);
+    background-color: black;
+  }
+  .components {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    /* scroll-snap-type: y mandatory;  */
+    /* scroll-behavior: smooth;  */
+  }
+  .components > * {
+    padding: 0 40px 0 40px;
+    scroll-snap-align: start;
+    width: 100vw;
+    height: calc(100vh - 50px);
+  }
+  

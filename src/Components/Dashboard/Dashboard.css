@@ -1,0 +1,24 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+}
+.dashboard-title{
+
+    height: 15%;
+    font-size: 25px;
+    width: 500px;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+
+}
+.dashboard-slider{
+    height: 10%;
+    width: 70%;
+}
+.dashboard-slider img{
+    width: 50%;
+}
