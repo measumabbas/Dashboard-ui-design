@@ -19,6 +19,8 @@
     padding: 15px;
     border-top-left-radius:5px ;
     border-top-right-radius:5px ;
+    display: flex;
+    justify-content: space-between;
 }
 
 .upper-img-content{
@@ -72,6 +74,9 @@ a.btn{
     padding: 10px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
 }
 .lower-down-content{

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Referalls.css";
 import pic from '../../images/img.jpg'
+import {BsChevronDoubleDown} from 'react-icons/bs'
+import {GiHazardSign} from 'react-icons/gi'
+import {BiChevronDown} from 'react-icons/bi'
 
 function Referalls(props) {
   return <div className="referalls" id="referalls">
@@ -9,6 +12,7 @@ function Referalls(props) {
           <div className="upper">
                 <div className="upper-header">
                   <p>Referral</p>
+                  <BsChevronDoubleDown/>
                 </div>
 
                 <div className="lower-main">
@@ -47,7 +51,7 @@ function Referalls(props) {
           </div>
           <div className="lower">
                 <div className="lower-header">
-                    <i></i>
+                   <GiHazardSign/>
                     <p>Referral Bonus</p>
                 </div>
                 <div className="lower-down-content">
@@ -64,7 +68,7 @@ function Referalls(props) {
               <div className="top-header">
                 <p>Referral Stats</p>
                 <a href="/">18000/30000 users</a>
-                <i></i>
+                <BsChevronDoubleDown/>
               </div>
               <div className="top-content">
                 <p><a href="/">60%</a> of users have referred their friends</p>
@@ -74,8 +78,10 @@ function Referalls(props) {
             <div className="bottom">
               <div className="bottom-header">
                 <p>Top Referrals</p>
-                <p>All</p>
-                <i></i>
+                <p>All
+                  <BiChevronDown/>
+                </p>
+                <BsChevronDoubleDown/>
               </div>
               <div className="bottom-body">
                 <div className="bottom-body-item">
@@ -110,3 +116,5 @@ function Referalls(props) {
 }
 
 export default Referalls;
+
+// BsChevronDoubleDown
