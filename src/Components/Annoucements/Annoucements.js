@@ -3,7 +3,7 @@ import "./Annoucements.css";
 
 function Annoucements(props) {
   return <div className="annoucements" id="annoucements">
-    <div className="main-container">
+    <div className="an-main-container">
       <div className="left-side">
           <div className="left-header">
             <p>Announcements</p>
@@ -18,7 +18,7 @@ function Annoucements(props) {
           </div>
       </div>
       <div className="right-side">
-
+          
       </div>
     </div>
   </div>;

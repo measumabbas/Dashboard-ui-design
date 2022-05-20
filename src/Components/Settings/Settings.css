@@ -1,3 +1,77 @@
-.settings{
-    background-color: coral;
+.setting-header{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+}
+
+.settings-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    width: 80%;
+    transform: translateY(30px);
+}
+
+.settings-middle{
+    background-color: #0C8CE9;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.settings-bottom{
+    color: #000;
+    padding: 15px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.settings-container-left{
+    box-shadow: 0 0 .1rem #000;
+    height: 80vh;
+}
+
+.settings-right-header{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.setting-user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.setting-user{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    align-items: center;
+    color: rgb(163, 163, 163);
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.setting-user-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.settings-container-right{
+    box-shadow: 0 0 .1rem #000;
+    height: 95%;
+
+}
+
+.settings-add-user{
+    display: flex;
+    padding: 15px 45px;
+    align-items: center;
+    color: rgb(163, 163, 163);
+    gap: 20px;
+    border-bottom: 1px solid rgb(153, 153, 153);
 }
